@@ -1,0 +1,127 @@
+.main {
+    padding: 20px;
+    background-color: rgb(201, 201, 201);
+    border-radius: 10px;
+
+    .char-info {
+        margin-bottom: 10px;
+
+        .char-info__header {
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .char-info-wrap {
+            margin-bottom: 5px;
+
+            .charname-box {
+                display: flex;
+                align-items: center;
+                margin-bottom: 8px;
+
+                .charname-box__name {
+                    margin-right: 5px;
+                }
+
+                .charname-box__input {
+                    padding: 3px;
+                }
+            }
+        }
+
+        .health-box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+
+            .health-box__number {
+                margin-right: 5px;
+            }
+
+            .health-box__damage {
+                padding: 3px;
+            }
+        }
+
+        .evasion-box {
+            margin-bottom: 10px;
+        }
+
+        .energy-box {
+            display: flex;
+            align-items: center;
+
+            .energy-box__number {
+                margin-right: 5px;
+            }
+
+            .energy-box__up {
+                padding: 3px;
+                color: #fff;
+                background-color: rgb(196, 56, 56);
+                outline: 0;
+                border: 0;
+                border-radius: 3px;
+            }
+        }
+    }
+
+        .abilities-box {
+            margin-bottom: 10px;
+    
+            .abilities-box__header {
+                text-align: center;
+                margin-bottom: 12px;
+            }
+    
+            .ability {
+                margin-bottom: 7px;
+    
+                .ability-stat {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 4px;
+
+                    .ability-stat__upgrade {
+                        color: rgb(255, 255, 255);
+                        background-color: rgb(196, 56, 56);
+                        outline: 0;
+                        border: 0;
+                        border-radius: 3px;
+                    }
+    
+                    .ability-stat__number {
+                        margin-right: 5px;
+                    }
+    
+                    .ability-stat__upgrade {
+                        text-align: center;
+                        padding: 3px;
+                    }
+                }
+    
+                .ability-secondary {
+                    margin: 0 0 8px 10px;
+
+                    .ability-secondary__number {
+                        margin-bottom: 4px;
+                    }
+                }
+            }
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+
+            .buttons__save {
+                margin-bottom: 5px;
+                padding: 3px;
+            }
+
+            .buttons__load {
+                padding: 3px;
+            }
+        }
+}
+
